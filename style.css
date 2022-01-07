@@ -1,0 +1,161 @@
+/*body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+   background-image: url('https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia24430-1041.jpg');
+  background-color: #000000;
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}*/
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, sans-serif;
+  background: #131313;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+header {
+  width: 100%;
+  height: 90vh;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(9,9,9,0) 50%,rgba(19,19,19,1) 100%), url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia24430-1041.jpg) no-repeat center right;
+  background-size: cover;
+}
+main {
+  width: 400px;
+  background: #131417a6;
+  margin: 10% auto 25px;
+  position: relative;
+  border-radius: 0 0 15px 15px;
+  border: 2px solid #6495ED;
+   border-radius: 30px 30px 20px 20px;
+}
+.titulo {
+  width: 100%;
+  font-size: 35px;
+  padding: 10px;
+  color: #FFF;
+  background: #6495ED;
+  text-align: center;
+  border-radius: 20px 20px 0px 0px;
+}
+.caixa {
+  padding: 15px;
+   border-radius: 20px 20px 20px 20px;
+}
+label {
+  font-weight: 300;
+  border-radius: 20px 20px 20px 20px;
+}
+input {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  margin: 3px 0 15px;
+  outline: none!important;
+  padding: 0 20px;
+  font-size: 22px;
+  align-items: center;
+  color: #FFF;
+  background: transparent;
+  border: 2px solid #6495ED;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+button {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #6495ED;
+ border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: 1.2em 2.8em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+button:hover, button:focus {
+  color:#6495ED ;
+  outline: 0;
+}
+button{
+  border-color: #6495ED;
+  border-radius: 20px 20px 20px 20px;
+  color: #6495ED;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+button:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #6495ED;
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+button:hover {
+  color: #fff;
+}
+button:hover:after {
+  width: 110%;
+}
+button:active:after {
+  background: #167a4a;
+}
+span {
+  width: 100%;
+  margin: 15px 0 0;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+}
+
+.page-logo {
+  width: 200px;
+  float: right;
+  margin: 15px 25px 0;
+}
+
+copyright{
+  text-align: center;
+  margin-left: 23px;
+}
+@media screen and (max-width: 400px) {
+  main {
+    width: 100%;
+    margin: 0 auto 25px;
+    border: 0;
+  }
+  .titulo {
+    font-size: 0.9em;
+  }
+}
