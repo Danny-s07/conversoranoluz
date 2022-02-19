@@ -1,4 +1,4 @@
-# conversoranoluz
+# Conversor de Anos Luz em KM
 Conversor de anos luz em quilômetros
 
 
