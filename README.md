@@ -1,4 +1,7 @@
-# Conversor de Anos Luz em KM
+<h1 align="center"> Conversor de Anos Luz em KM</h1>
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
 Conversor de anos luz em quilômetros
 
 
